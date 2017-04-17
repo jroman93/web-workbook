@@ -363,7 +363,7 @@ margin-left: 40%;
 }
 .bullets {
   font-family: 'Arapey', serif;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   list-style: none;
 }
@@ -502,7 +502,7 @@ i {
     margin-bottom: 20%;
   }*/
   .bullets {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -510,7 +510,7 @@ i {
 /*phone size*/
 
 .bullets {
-  font-size: 12px;
+  font-size: 14px;
 }
 .snip-it {
   /*height: 300px;*/
