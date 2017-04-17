@@ -1,11 +1,12 @@
 body {
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
 
 }
 .container-fluid {
 
 }
+
 .navbar-nav {
     float: right;
     font-family: 'Codystar', cursive;
@@ -18,6 +19,22 @@ body {
 }
 .logo:hover {
   color: #c058a7;
+}
+
+.hire-me {
+  background-color: white;
+  color:black;
+  font-family: 'Codystar', cursive;
+  padding: 10px 35px 10px 35px;
+  font-style: 38px;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  border-style: dotted;
+  border-color: black;
+}
+.hire-me:hover {
+  color: #c058a7;
+  border-color: #c058a7;
 }
 
 .navbar-default {
@@ -76,6 +93,14 @@ body {
 margin-left: 2%;
 margin-right: 2%;
 }
+.modal-header {
+  border-style: none;
+}
+.modal-footer {
+  border-style: none;
+  margin-top: -5%;
+}
+
 #project-1{
 /*need to make background image
 background-image: url(../img/berry.jpg);
@@ -162,8 +187,10 @@ visibility:hidden;
 visibility:visible;
 }
 .button {
-color: black;
+color: white;
+
 }
+
 .button:hover {
   text-decoration: none;
   color: #c058a7;
@@ -180,11 +207,41 @@ color: black;
     display: table-cell;
     vertical-align: middle
 }
+
 h1 {
   font-family: 'Petit Formal Script', cursive;
   text-align: center;
   font-size: 30px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+}
+#hire-her {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 22px;
+  padding-top: 50px;
+
+}
+#hire-herr {
+  font-family: 'Petit Formal Script', cursive;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 7%;
+  margin-bottom: 2%;
+
+}
+.potato {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 22px;
+  padding-left: 13%;
+  margin-top: 7%;
+}
+.potato-2 {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 22px;
+  padding-left: 30%;
+  margin-top: 7%;
+}
+.space-me {
+  margin: 4% 0 4% 0;
 }
 h2 {
   font-family: 'Codystar', cursive;
@@ -192,13 +249,54 @@ h2 {
   font-size: 14px;
   padding-bottom: 15px;
   font-weight: bold;
-
-
 }
+.question {
+  font-family: 'Codystar', cursive;
+  font-size: 16px;
+  text-align: center;
+  /*border-style: dotted;
+  border-radius: 2%;
+  border-width: thin;*/
+}
+.references {
+  margin-top: 10%;
+}
+span {
+  font-family: 'Codystar', cursive;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  color:#c058a7;
+}
+.fa-quote-right {
+  color: #c058a7;
+}
+.fa-quote-left {
+  color: #c058a7;
+}
+.fa-arrow-circle-o-right {
+  margin-left: 45%;
+  color: grey;
+}
+
+
+#arrow {
+  height: 90px;
+  width: 300px;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
 h3 {
   font-family: 'Petit Formal Script', cursive;
-  padding-bottom: 15px;
+  padding-bottom: 5%;
   font-size: 30px;
+  text-align: center;
+margin-top: 7%;
+}
+#move-this {
+  margin-top: 7%;
+
 }
 h4 {
   font-family: 'Petit Formal Script', cursive;
@@ -207,9 +305,11 @@ h4 {
 }
 h5 {
   font-family: 'Codystar', cursive;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   font-weight: bold;
+  margin-bottom: 5%;
+  margin-left: 5%;
 
 }
 .text {
@@ -224,21 +324,25 @@ h5 {
   border-radius: 25%;
 }
 .resume {
-  margin-left: 5%;
   margin-top: 2%;
 
 }
-.resume-logo {
+.resume-logo-oe {
   height: 100px;
-  width: 100%;
+  width: 300px;
 }
 .resume-logo-aca {
   height: 130px;
-  margin-left: 25%;
+margin-left: 40%;
+
+}
+#eddy {
+  margin-top: 1%;
 }
 .resume-logo-ecu {
   height: 130px;
-  margin-left: 25%;
+  width: 250px;
+  margin-left: 27%;
 
 }
 .resume-logo-oe {
@@ -248,8 +352,9 @@ h5 {
 
 }
 .resume-logo-msh {
-  height: 120px;
-  margin-left: 25%;
+  height: 100px;
+  width: 400px;
+  margin-left: 10%;
 
 
 }
@@ -257,20 +362,23 @@ h5 {
   padding-top: 50px;
 }
 .bullets {
-  font-family: 'Carrois Gothic SC', sans-serif;
-  font-size: 10px;
+  font-family: 'Arapey', serif;
+  font-size: 12px;
+  text-align: center;
+  list-style: none;
 }
 
-
-.references {
-  padding-top: 8%;
+.ecu {
+  padding-left: 5%;
 }
+
 
 
 .ref-profile {
   border-radius: 50%;
   height: 200px;
   width: 90%;
+  margin-bottom: 2%;
 }
 .ref-title {
   color: black;
@@ -283,10 +391,10 @@ h5 {
   padding: 10%;
 }
 .review {
+  font-family: 'Arapey', serif;
   margin-top: 3%;
   margin-left: 5%;
   margin-right: 5%;
-  font-family: 'Carrois Gothic SC', sans-serif;
   padding-top: 3%;
   font-size: 14px;
 }
@@ -295,7 +403,7 @@ h5 {
 
 }
 .inquiry-head {
-  padding-top: 8%;
+  padding-top: 3%;
   text-align: center;
 
 }
@@ -319,28 +427,49 @@ input {
 }
 .contact-click {
   text-decoration: none;
-  padding: 4%;
+  color: black;
+  margin-bottom: 12%;
+  margin-top: 12%;
 }
 .contact-click:hover {
   text-decoration: none;
+  color: #c058a7;
 
 }
 
 #quick-links {
-  margin-top: 3%;
-  background-color: #FFF7F8;
+  margin-top: 15%;
+  border-style: dotted;
+  border-color: #c058a7;
+  border-radius: 2%;
+  border-width: thin;
+  margin-bottom: 5%;
 }
-.links {
-  background-color: #FFF7F8;
 
-}
+
+
 i {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-#modal-text {
+#leadingmodal {
+  font-family: 'Codystar', cursive;
+  font-size: 18px;
+  text-align: center;
+  color:#c058a7;
+  font-weight: bold;
+
 
 }
+.www {
+  font-family: 'Arapey', serif;
+  margin: 2% 7% 7% 7%;
+  font-size: 14px;
+  text-align: justify;
+}
+
+
+
 /*tablet size*/
 @media (max-width:1023px) and (min-width:768px) {
   .snip-it {
@@ -364,15 +493,14 @@ i {
     margin-left: 10%;
 
   }
-  .hire-me {
-    background: #FFF7F8;
+  /*.hire-me {
+    background:#f8bddb;
     font-family: 'Codystar', cursive;
     padding: 10px 35px 10px 35px;
     font-style: 38px;
     margin-top: 1%;
-    margin-bottom: 5%;
-
-  }
+    margin-bottom: 20%;
+  }*/
   .bullets {
     font-size: 16px;
   }
@@ -412,6 +540,7 @@ i {
   }
   .resume-logo-ecu {
     height: 80px;
+    width: 10px;
   }
   .resume-logo-oe {
     height: 80px;
@@ -430,13 +559,12 @@ i {
       display: table-cell;
       vertical-align: middle
   }
-  .hire-me {
-    background: #FFF7F8;
+  /*.hire-me {
     font-family: 'Codystar', cursive;
     padding: 10px 35px 10px 35px;
     font-style: 38px;
     margin-top: 1%;
-    margin-bottom: 7%;
+    margin-bottom: 7%;*/
 
   }
   #q {
@@ -445,19 +573,22 @@ i {
 
 
 }
-.hire-me {
-  background: #FFF7F8;
+/*.hire-me {
+  background-color: white;
+  color:#c058a7;
   font-family: 'Codystar', cursive;
   padding: 10px 35px 10px 35px;
   font-style: 38px;
   margin-top: 1%;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
+  border-style: dashed;
 
-}
+}*/
 
-.hire-me:hover {
+/*.hire-me:hover {
   color: #c058a7;
-}
+  border-color: #c058a7;
+}*/
 #modal-text {
   font-family: 'Codystar', cursive;
   align-items: center;
